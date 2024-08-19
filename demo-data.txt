@@ -1,0 +1,50 @@
+curl -X PUT \
+  <API_URL>/orders \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": "82344",
+    "pie": "Pecan",
+    "quantity": 12,
+    "customerName": "Aria Meadows",
+    "deliveryDate": "2025-01-30"
+}'
+curl -X PUT \
+  <API_URL>/orders \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": "82345",
+    "pie": "Apple",
+    "quantity": 3,
+    "customerName": "Jasper Stone",
+    "deliveryDate": "2025-01-30"
+}'
+curl -X PUT \
+  <API_URL>/orders \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": "82346",
+    "pie": "Pumpkin",
+    "quantity": 8,
+    "customerName": "Lila Winters",
+    "deliveryDate": "2025-01-31"
+}'
+curl -X PUT \
+  <API_URL>/orders \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": "82347",
+    "pie": "Blueberry",
+    "quantity": 20,
+    "customerName": "Orion Vega",
+    "deliveryDate": "2025-02-01"
+}'
+curl -X PUT \
+  <API_URL>/orders \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": "82348",
+    "pie": "Apple",
+    "quantity": 18,
+    "customerName": "Clara Skye",
+    "deliveryDate": "2025-02-01"
+}'
