@@ -135,7 +135,7 @@ export class OrderUpStack extends cdk.Stack {
       },
       publicLoadBalancer: true,
       runtimePlatform: {
-        cpuArchitecture: ecs.CpuArchitecture.ARM64,
+        cpuArchitecture: ecs.CpuArchitecture.ARM64, // remove line if working computer is not ARM-based
         operatingSystemFamily: ecs.OperatingSystemFamily.LINUX,
       }
     });
